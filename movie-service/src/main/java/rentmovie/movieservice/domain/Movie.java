@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 
 
 @Valid
-@
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
 @Document(collection = "Movies")
@@ -23,4 +23,5 @@ public class Movie {
     private String name;
     private MovieGenre genre;
     private BigDecimal price;
+    private String description;
 }
