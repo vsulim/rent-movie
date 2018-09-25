@@ -30,8 +30,12 @@ public class MovieFacade {
         Movie movie = movieRepository.findById(movieId)
                 .orElseThrow(NoSuchElementException::new);
 
-        movieManager.actualizeStock(movie, action);
+        Movie actualizedMovie = movieManager.actualizeStock(movie, action);
 
-        movieRepository.save(movie);
+        movieRepository.save(actualizedMovie);
+    }
+
+    public void save(Movie movie){
+        movieRepository.insert(movie);
     }
 }

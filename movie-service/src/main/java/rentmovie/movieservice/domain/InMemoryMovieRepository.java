@@ -18,7 +18,7 @@ public class InMemoryMovieRepository implements MovieRepository {
 
     @Override
     public long count() {
-        return 0;
+        return movies.size();
     }
 
     @Override
@@ -28,12 +28,17 @@ public class InMemoryMovieRepository implements MovieRepository {
 
     @Override
     public Optional<Movie> findById(String movieId) {
-        return Optional.empty();
+        return Optional.ofNullable(movies.get(movieId));
     }
 
     @Override
     public void save(Movie movie) {
+        movies.put(movie.getId(), movie);
+    }
 
+    @Override
+    public void insert(Movie movie) {
+        movies.put(movie.getId(), movie);
     }
 
 }

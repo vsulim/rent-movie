@@ -22,4 +22,6 @@ public interface MovieRepository extends Repository<Movie, String> {
     Optional<Movie> findById(String movieId);
 
     void save(Movie movie);
+
+    void insert(Movie movie);
 }

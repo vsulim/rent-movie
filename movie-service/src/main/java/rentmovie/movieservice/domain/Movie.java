@@ -28,7 +28,7 @@ public class Movie {
     private String leadStudio;
     private BigDecimal price;
     private Integer audienceScore;
-    private Integer inStockNumber;
+    private int inStockNumber;
     private Director director;
     private String year;
 
