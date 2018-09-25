@@ -1,46 +1,100 @@
 package rentmovie.movieservice.domain;
 
-import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoOperations;
-import org.springframework.stereotype.Component;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.batch.item.ExecutionContext;
+import org.springframework.batch.item.file.mapping.DefaultLineMapper;
+import org.springframework.batch.item.file.mapping.FieldSetMapper;
+import org.springframework.batch.item.file.separator.DefaultRecordSeparatorPolicy;
+import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
+import org.springframework.batch.item.file.transform.FieldSet;
+import org.springframework.core.io.ClassPathResource;
 
-import java.math.BigDecimal;
-import java.util.Arrays;
-import java.util.UUID;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
+import org.springframework.batch.item.file.FlatFileItemReader;
+import org.springframework.validation.BindException;
 
+import rentmovie.movieservice.domain.Movie.Director;
+
+@Slf4j
 public class MovieInitializer{
 
-    public MovieInitializer(MovieRepository movieRepository){
+    public MovieInitializer(MovieRepository movieRepository) throws Exception {
 
         if (movieRepository.count() != 0) {
             return;
         }
 
-        Movie harryPotter = Movie.builder()
-                .name("Harry Potter")
-                .price(new BigDecimal(15))
-                .genre(MovieGenre.SCIENCE_FICTION)
-                .description("Adventures of young wizard, Harry Potter," +
-                        "and his friends.")
-                .build();
+        List<Movie> movies = readMovies();
 
-        Movie blow = Movie.builder()
-                .name("Harry Potter")
-                .price(new BigDecimal(15))
-                .genre(MovieGenre.CRIME)
-                .description("Movie based on facts about George Young," +
-                        " that was one of Pablo Escobar partner's")
-                .build();
+        log.info("Importing {} movies into mongo db", movies.size());
+        movieRepository.saveAll(movies);
+        log.info("Successfully imported {} movies", movies.size());
+    }
 
-        Movie inception = Movie.builder()
-                .name("Inception")
-                .price(new BigDecimal(10))
-                .genre(MovieGenre.SCIENCE_FICTION)
-                .description("The film stars Leonardo DiCaprio as a professional" +
-                        " thief who steals information by infiltrating the subconscious.")
-                .build();
+    private static List<Movie> readMovies() throws Exception{
 
-        movieRepository.saveAll(Arrays.asList(harryPotter, inception, blow));
+        ClassPathResource resource = new ClassPathResource("movies.csv");
+        Scanner scanner = new Scanner(resource.getInputStream());
+        String line = scanner.nextLine();
+        scanner.close();
+
+        FlatFileItemReader<Movie> itemReader = new FlatFileItemReader<>();
+
+        DelimitedLineTokenizer tokenizer = new DelimitedLineTokenizer();
+        tokenizer.setNames(line.split(","));
+        tokenizer.setStrict(false);
+
+        DefaultLineMapper<Movie> lineMapper = new DefaultLineMapper<>();
+        lineMapper.setLineTokenizer(tokenizer);
+        lineMapper.setFieldSetMapper(MovieFieldSetMapper.INSTANCE);
+
+        itemReader.setResource(resource);
+        itemReader.setLineMapper(lineMapper);
+        itemReader.setRecordSeparatorPolicy(new DefaultRecordSeparatorPolicy());
+        itemReader.setLinesToSkip(1);
+        itemReader.open(new ExecutionContext());
+
+        List<Movie> movies = new ArrayList<>();
+        Movie movie = null;
+
+        do {
+            movie = itemReader.read();
+
+            if (movie != null){
+                movies.add(movie);
+            }
+        } while (movie != null);
+
+        return movies;
+    }
+
+    private enum MovieFieldSetMapper implements FieldSetMapper<Movie>{
+
+        INSTANCE;
+
+        @Override
+        public Movie mapFieldSet(FieldSet fields) throws BindException {
+
+            Random random = new Random();
+
+            Director director = Director.builder()
+                    .directorName(fields.readString("Director Name"))
+                    .directorRate(fields.readInt("Director Rate"))
+                    .build();
+
+            return Movie.builder()
+                    .name(fields.readString("Name"))
+                    .genre(MovieGenre.toGenre(fields.readString("Genre")))
+                    .leadStudio(fields.readString("Lead Studio"))
+                    .audienceScore(fields.readInt("Audience Score"))
+                    .price(fields.readBigDecimal("Price"))
+                    .year(fields.readString("Year"))
+                    .inStockNumber(random.nextInt(6)+10) // gotta add it to the movies.csv
+                    .director(director)
+                    .build();
+        }
     }
 }

@@ -1,10 +1,9 @@
 package rentmovie.userservice.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.security.core.GrantedAuthority;
@@ -12,14 +11,14 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.*;
 
+@Value
 @Builder
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 @Document(collection = "Users")
-public class User implements UserDetails, Serializable {
+public class User implements UserDetails {
 
     @Id
     private String id;
@@ -27,6 +26,12 @@ public class User implements UserDetails, Serializable {
     private String email;
     private String password;
     private List<String> film_ids;
+
+    @CreatedDate
+    private LocalDateTime creationDate;
+
+    @LastModifiedDate
+    private LocalDateTime lastModifiedDate;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

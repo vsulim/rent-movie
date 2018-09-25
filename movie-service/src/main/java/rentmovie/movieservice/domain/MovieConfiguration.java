@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 public class MovieConfiguration {
 
     @Bean
-    public MovieInitializer movieInitializer(MovieRepository movieRepository){
+    public MovieInitializer movieInitializer(MovieRepository movieRepository) throws Exception{
         return new MovieInitializer(movieRepository);
     }
 

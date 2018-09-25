@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08d7b526-eadb-492b-857d-476f41146c98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-service/src/main/resources/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/MovieProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/InMemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/InMemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieGenre.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieGenre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/Rent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentMovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentalServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rental-service/src/test/java/rentmovie/rentalservice/RentalServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/rental-service/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/movie-service/target/" />
+    <ignored path="$PROJECT_DIR$/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/rent-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.22.0" />
+      </map>
+    </option>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-411976836">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="6" />
+          <entry key="csv" value="6" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="118" />
+          <entry key="properties" value="8" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="CSV" value="4" />
+          <entry key="JAVA" value="118" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="csv" value="1090" />
+          <entry key="dummy" value="43" />
+          <entry key="java" value="4804" />
+          <entry key="properties" value="23" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="202" />
+          <entry key="JAVA" value="4804" />
+          <entry key="PLAIN_TEXT" value="931" />
+          <entry key="Properties" value="23" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieGenre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/Rent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/MovieProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/demo" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieConfiguration.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/resources/movies.csv" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/Movie.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieInitializer.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/dto/RentMovieDto.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentMovie.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieRepository.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/MovieProxy.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentFacade.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentController.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/InMemoryMovieRepository.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/dto/PostRentMovieDto.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentalServiceApplication.java" />
+        <option value="$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/cos/RentMovieRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/cos/RentController.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/cos/RentMovieRepository.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/rent-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/MovieProxy.java" />
+        <option value="$PROJECT_DIR$/movie-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/MovieProxy.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentMovieConfig.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentController.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentConfig.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/Rent.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieFacade.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieGenre.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentManager.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentRepository.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentFacade.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/MovieProxy.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3278" />
+    <option name="y" value="-174" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+              <item name="rentservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+              <item name="rentservice" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537883884938" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bartlomiej.sulima\Desktop\rent-movie-app\rent-service\src\main\resources" />
+      <recent name="C:\Users\bartlomiej.sulima\Desktop\rent-movie-app\rental-service\src\main\java\rentmovie\rentalservice\cos" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="rentmovie.rentservice" />
+      <recent name="rentmovie.movieservice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bartlomiej.sulima\Desktop\rent-movie-app\rent-service\src\main\java\rentmovie\rentservice" />
+      <recent name="C:\Users\bartlomiej.sulima\Desktop\rent-movie-app\rental-service\src\main\java\rentmovie\rentalservice\cos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="movie-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.movieservice.MovieServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rent-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.rentservice.RentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.zuulgateway.ZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
+      <item itemvalue="Spring Boot.MovieServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.RentServiceApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08d7b526-eadb-492b-857d-476f41146c98" name="Default Changelist" comment="" />
+      <created>1537771056093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537771056093</updated>
+      <workItem from="1537771061328" duration="2704000" />
+      <workItem from="1537788757882" duration="1644000" />
+      <workItem from="1537794105685" duration="77000" />
+      <workItem from="1537795157461" duration="5619000" />
+      <workItem from="1537862413232" duration="4477000" />
+      <workItem from="1537866972296" duration="9475000" />
+      <workItem from="1537877979425" duration="541000" />
+      <workItem from="1537878717360" duration="1080000" />
+      <workItem from="1537879876894" duration="4058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29675000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3278" y="-174" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.329718" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.4099783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.20149253" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.20095949" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" side_tool="true" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/movie-service/src/test/java/rentmovie/movieservice/MovieServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/4.0.1.RELEASE/spring-batch-infrastructure-4.0.1.RELEASE.jar!/org/springframework/batch/item/file/mapping/DefaultLineMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/4.0.1.RELEASE/spring-batch-infrastructure-4.0.1.RELEASE.jar!/org/springframework/batch/item/file/FlatFileItemReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-infrastructure/4.0.1.RELEASE/spring-batch-infrastructure-4.0.1.RELEASE.jar!/org/springframework/batch/item/support/AbstractItemCountingItemStreamItemReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/resources/movies.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="53" column="71" lean-forward="true" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/test/java/rentmovie/movieservice/RentMovie.java" />
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/InMemoryMovieRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/dto/PostRentMovieDto.java" />
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentFacade.java" />
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentMovie.java" />
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentController.java" />
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/MovieProxy.java" />
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/cos/application.properties" />
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentMovieRepository.java" />
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/cos/RentalServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/rental-service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/rental-service/target/classes/application.properties" />
+    <entry file="file://$PROJECT_DIR$/user-service/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rental-service/src/main/java/rentmovie/rentalservice/RentalServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentalServiceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/MovieServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="66" lean-forward="true" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieGenre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/Rent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/MovieProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rental-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

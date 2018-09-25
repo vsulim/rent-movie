@@ -1,27 +1,24 @@
 package rentmovie.userservice.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
+import lombok.*;
 
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 
-@Getter
+@Value
 @Builder
-@AllArgsConstructor
+@NoArgsConstructor(force = true)
 public class PostUserDto {
 
     @Null
-    private final String id;
+    private String id;
 
-    private final String username;
-    private final String password;
-    private final String email;
+    @NotNull
+    private String username;
 
-    public PostUserDto() {
-        this.id = null;
-        this.username = null;
-        this.password = null;
-        this.email = null;
-    }
+    @NotNull
+    private String password;
+
+    @NotNull
+    private String email;
 }

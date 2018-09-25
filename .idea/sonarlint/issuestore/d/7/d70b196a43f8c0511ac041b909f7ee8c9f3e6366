@@ -1,0 +1,4 @@
+
+ksquid:S00116"SRename this field "film_ids" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŽ±Š
+tsquid:UselessImportCheck"PRemove this unused import 'org.springframework.data.mongodb.core.mapping.DBRef'.(°‘íâ
+asquid:UselessImportCheck"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8¡â»Òà,

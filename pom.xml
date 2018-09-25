@@ -26,7 +26,7 @@
 
 	<modules>
 		<module>eureka-server</module>
-		<module>rental-service</module>
+		<module>rent-service</module>
 		<module>user-service</module>
 		<module>movie-service</module>
 		<module>zuul-gateway</module>

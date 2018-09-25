@@ -1,17 +1,18 @@
 package rentmovie.movieservice.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.Valid;
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
 
 
-@Valid
+@Value
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
@@ -22,6 +23,20 @@ public class Movie {
     private String id;
     private String name;
     private MovieGenre genre;
+    private String leadStudio;
     private BigDecimal price;
-    private String description;
+    private Integer audienceScore;
+    private Integer inStockNumber;
+    private Director director;
+    private String year;
+
+    @Value
+    @Builder
+    @AllArgsConstructor
+    @NoArgsConstructor(force = true)
+    public static class Director{
+
+        private String directorName;
+        private Integer directorRate;
+    }
 }

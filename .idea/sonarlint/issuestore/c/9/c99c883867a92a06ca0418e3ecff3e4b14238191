@@ -1,0 +1,7 @@
+
+|squid:UselessImportCheck"LRemove this unused import 'org.springframework.data.annotation.CreatedDate'.(Éå¥°ÿÿÿÿÿ8§ÞÂÓà,
+`squid:UselessImportCheck
+"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8òŽØ€á,
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ç–Ãþà,
+dsquid:UselessImportCheck"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ñí´þà,
+csquid:UselessImportCheck"3Remove this unused import 'javax.validation.Valid'.(æ¤ñ÷úÿÿÿÿ8êš¹Òà,

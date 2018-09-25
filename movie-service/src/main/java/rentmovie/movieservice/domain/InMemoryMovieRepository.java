@@ -1,19 +1,16 @@
 package rentmovie.movieservice.domain;
 
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class InMemoryMovieRepository implements MovieRepository {
 
-    Map<String, Movie> movies = new ConcurrentHashMap<>();
+    private Map<String, Movie> movies = new ConcurrentHashMap<>();
 
-    @Override
-    public Page<Movie> findAll() {
-        return null;
-    }
-    
     @Override
     public void saveAll(Iterable<Movie> iterable) {
 
@@ -22,6 +19,16 @@ public class InMemoryMovieRepository implements MovieRepository {
     @Override
     public long count() {
         return 0;
+    }
+
+    @Override
+    public Page<Movie> findAll(Pageable pageable) {
+        return null;
+    }
+
+    @Override
+    public Optional<Movie> findById(String movieId) {
+        return Optional.empty();
     }
 
 }
