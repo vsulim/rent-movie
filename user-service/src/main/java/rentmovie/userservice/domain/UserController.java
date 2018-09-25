@@ -16,7 +16,7 @@ import java.util.Map;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/user")
+@RequestMapping("/users")
 public class UserController {
 
     private final UserFacade userService;
@@ -24,18 +24,18 @@ public class UserController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void createAccount(@RequestBody PostUserDto postUserDto) {
-        userService.createUser(postUserDto);
+        userService.addUser(postUserDto);
     }
 
     @GetMapping(value="/token")
     @ResponseStatus(HttpStatus.OK)
     public Map<String, String> token(HttpSession session, HttpServletRequest request) {
-            return Collections.singletonMap("token", session.getId());
+        return Collections.singletonMap("token", session.getId());
     }
 
     @PostMapping(value="/logout")
     @ResponseStatus(HttpStatus.OK)
-    public void logout(){
+    public void logout() {
         SecurityContextHolder.clearContext();
     }
 }

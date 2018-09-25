@@ -9,16 +9,21 @@ public class UserConfiguration {
 
     public UserFacade accountCreator(){
         UserRepository userRepository = new InMemoryUserRepository();
-        return accountCreator(userRepository);
+
+        return userFacade(userRepository);
     }
 
     @Bean
-    public UserFacade accountCreator(UserRepository userRepository){
-        return new UserFacade(userRepository);
+    public UserFacade userFacade(UserRepository userRepository) {
+        UserCreator userCreator = new UserCreator();
+
+        return new UserFacade(userRepository,userCreator);
     }
 
     @Bean
-    public UserSecurityService userSecurityService(UserRepository userRepository){
+    public UserSecurityService userSecurityService(UserRepository userRepository) {
+        UserCreator userCreator = new UserCreator();
+
         return new UserSecurityService(userRepository);
     }
 }

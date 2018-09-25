@@ -14,14 +14,24 @@ import java.util.NoSuchElementException;
 public class MovieFacade {
 
     private MovieRepository movieRepository;
+    private MovieManager movieManager;
 
     public Page<Movie> findAll(Pageable pageable) {
-
         return movieRepository.findAll(pageable);
     }
 
     public Movie findById(String movieId) {
         return movieRepository.findById(movieId)
-                .orElseThrow(() -> new NoSuchElementException()); // add own exception
+                .orElseThrow(NoSuchElementException::new); // add own exception
+    }
+
+    public void actualizeInStockNumber(String action, String movieId) {
+
+        Movie movie = movieRepository.findById(movieId)
+                .orElseThrow(NoSuchElementException::new);
+
+        movieManager.actualizeStock(movie, action);
+
+        movieRepository.save(movie);
     }
 }

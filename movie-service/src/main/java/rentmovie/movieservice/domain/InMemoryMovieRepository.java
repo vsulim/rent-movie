@@ -31,4 +31,9 @@ public class InMemoryMovieRepository implements MovieRepository {
         return Optional.empty();
     }
 
+    @Override
+    public void save(Movie movie) {
+
+    }
+
 }

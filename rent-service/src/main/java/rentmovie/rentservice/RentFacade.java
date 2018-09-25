@@ -21,6 +21,6 @@ public class RentFacade {
         Rent rent = rentManager.processRent(rentDto, moviePrice);
         rentRepository.save(rent);
 
-        movieProxy.actualizeStockLevel();
+        movieProxy.actualizeStockNumber(rentDto.getMovieId(), "Subtract");
     }
 }

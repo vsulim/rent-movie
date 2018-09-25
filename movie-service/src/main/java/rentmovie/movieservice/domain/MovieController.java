@@ -3,10 +3,7 @@ package rentmovie.movieservice.domain;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 
@@ -23,9 +20,16 @@ public class MovieController {
     }
 
     @GetMapping("/price/{movieId}")
-    public BigDecimal getMoviePrice(@PathVariable String movieId){
+    public BigDecimal getMoviePrice(@PathVariable String movieId) {
+
         Movie movie = movieFacade.findById(movieId);
 
         return movie.getPrice();
     }
+
+    @PutMapping("/actualize/{movieId}")
+    public void actualizeStockNumber(@PathVariable String movieId, @RequestBody String action) {
+        movieFacade.actualizeInStockNumber(action, movieId);
+    }
+
 }

@@ -1,6 +1,5 @@
 
-squid:UselessImportCheck	"XRemove this unused import 'org.springframework.data.mongodb.repository.MongoRepository'.(ş§õæıÿÿÿÿ
-|squid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ
-lsquid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş
-dsquid:UselessImportCheck";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ
-Osquid:S1612",Replace this lambda with a method reference.(ìµ¥Ùşÿÿÿÿ8²çé„á,
+squid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8áô¨á,
+isquid:UselessImportCheck";Remove this unused import 'lombok.RequiredArgsConstructor'.(ÑØúøÿÿÿÿ8áô¨á,
+qsquid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8áô¨á,
+†squid:UselessImportCheck"XRemove this unused import 'org.springframework.data.mongodb.repository.MongoRepository'.(ş§õæıÿÿÿÿ8áô¨á,

@@ -11,7 +11,6 @@ import rentmovie.rentservice.dto.PostRentDto;
 public class RentController {
 
     private RentFacade rentFacade;
-    private MovieProxy movieProxy;
 
     @PostMapping
     public void rentMovie(@RequestBody PostRentDto rentDto){

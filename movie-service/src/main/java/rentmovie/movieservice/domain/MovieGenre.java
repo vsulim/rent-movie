@@ -8,8 +8,7 @@ public enum MovieGenre {
     ROMANCE, FANTASY, CRIME,
     DRAMA, ANIMATION,ACTION;
 
-    static MovieGenre toGenre(String givenGenre){
-
+    static MovieGenre toGenre(String givenGenre) {
         return Arrays.stream(MovieGenre.values())
                 .filter(genre -> isCorrect(genre, givenGenre))
                 .findAny()
@@ -17,7 +16,6 @@ public enum MovieGenre {
     }
 
     private static boolean isCorrect(MovieGenre genre, String givenGenre) {
-
         return genre.name().equalsIgnoreCase(givenGenre);
     }
 }

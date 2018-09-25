@@ -8,10 +8,9 @@ import rentmovie.rentservice.proxy.MovieProxy;
 public class RentConfig {
 
     @Bean
-    public RentFacade rentMovieConfig(RentRepository rentRepository,
-                                      MovieProxy movieProxy){
-
+    public RentFacade rentMovieConfig(RentRepository rentRepository, MovieProxy movieProxy) {
         RentManager rentManager = new RentManager();
+
         return new RentFacade(rentRepository, movieProxy, rentManager);
     }
 }

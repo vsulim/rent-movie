@@ -8,26 +8,30 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.Valid;
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 
 @Valid
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
-@Document(collection = "UserFilm_ids")
+@Document(collection = "RentMovies")
 public class Rent {
 
     @Id
     private String id;
     private String movieId;
     private String userId;
-    private RentalPeriod rentalPeriod;
-    private BigDecimal rentalTotalPrice;
+    private RentalPeriod rentPeriod;
+    private BigDecimal rentTotalPrice;
+    private LocalDate rentDate;
+    private LocalDate rentExpirationDate;
 
-    public enum RentalPeriod{
+    public enum RentalPeriod {
         WEEK, TWO_WEEKS, MONTH;
 
-        static RentalPeriod toRentalPeriod(String givenRentalPeriod){
+        static RentalPeriod toRentalPeriod(String givenRentalPeriod) {
             return Arrays.stream(RentalPeriod.values())
                     .filter(period -> isCorrect(period, givenRentalPeriod))
                     .findAny()

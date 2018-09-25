@@ -10,21 +10,15 @@ import java.util.List;
 public class UserFacade {
 
     private UserRepository userRepository;
+    private UserCreator userCreator;
 
-    public User createUser(PostUserDto postUserDto){
-        User user = User.builder()
-                .id(postUserDto.getId())
-                .username(postUserDto.getUsername())
-                .email(postUserDto.getEmail())
-                .password(SecurityUtility
-                        .passwordEncoder()
-                        .encode(postUserDto.getPassword()))
-                .build();
+    public User addUser(PostUserDto postUserDto) {
+        User user = userCreator.create(postUserDto);
 
         return userRepository.insert(user);
     }
 
-    public List<User> getAllUsers(){
+    public List<User> getAllUsers() {
         return userRepository.findAll();
     }
 }

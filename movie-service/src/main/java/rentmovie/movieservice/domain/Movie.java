@@ -1,6 +1,7 @@
 package rentmovie.movieservice.domain;
 
 import lombok.*;
+import lombok.experimental.Wither;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -13,6 +14,7 @@ import java.util.List;
 
 
 @Value
+@Wither
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
@@ -34,7 +36,7 @@ public class Movie {
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor(force = true)
-    public static class Director{
+    public static class Director {
 
         private String directorName;
         private Integer directorRate;

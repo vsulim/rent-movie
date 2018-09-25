@@ -20,7 +20,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             "/src/**",
             "/main/**",
             "/resources/**",
-            "/user/**",
+            "/users/**",
             "/user-service/**"
     };
 

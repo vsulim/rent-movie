@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
-public class InMemoryUserRepository implements UserRepository{
+public class InMemoryUserRepository implements UserRepository {
 
     private Map<String,User> users = new ConcurrentHashMap<>();
 

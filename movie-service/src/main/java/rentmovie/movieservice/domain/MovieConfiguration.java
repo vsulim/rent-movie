@@ -8,16 +8,18 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 public class MovieConfiguration {
 
     @Bean
-    public MovieInitializer movieInitializer(MovieRepository movieRepository) throws Exception{
+    public MovieInitializer movieInitializer(MovieRepository movieRepository) throws Exception {
         return new MovieInitializer(movieRepository);
     }
 
     @Bean
-    public MovieFacade movieFacade(MovieRepository movieRepository){
-        return new MovieFacade(movieRepository);
+    public MovieFacade movieFacade(MovieRepository movieRepository) {
+        MovieManager movieManager = new MovieManager();
+
+        return new MovieFacade(movieRepository, movieManager);
     }
 
-    public MovieFacade movieFacade(){
+    public MovieFacade movieFacade() {
         return movieFacade(new InMemoryMovieRepository());
     }
 }

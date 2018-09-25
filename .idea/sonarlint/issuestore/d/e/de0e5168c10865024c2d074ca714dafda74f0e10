@@ -1,0 +1,7 @@
+
+Isquid:S4502"+Activate Spring Security's CSRF protection.(ΩÄúá8ñ∆‡é·,
+èsquid:UselessImportCheck"dRemove this unused import 'org.springframework.security.config.annotation.web.builders.WebSecurity'.(ñÎû8ñ∆‡é·,
+ssquid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(ÇÓâﬁ8ñ∆‡é·,
+~squid:UselessImportCheck	"SRemove this unused import 'org.springframework.security.web.firewall.HttpFirewall'.(…ÿÙµ8ñ∆‡é·,
+Ñsquid:UselessImportCheck
+"YRemove this unused import 'org.springframework.security.web.firewall.StrictHttpFirewall'.(¡óÃÊ8ñ∆‡é·,

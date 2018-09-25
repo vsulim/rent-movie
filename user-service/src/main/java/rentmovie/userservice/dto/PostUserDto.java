@@ -7,6 +7,7 @@ import javax.validation.constraints.Null;
 
 @Value
 @Builder
+@AllArgsConstructor
 @NoArgsConstructor(force = true)
 public class PostUserDto {
 

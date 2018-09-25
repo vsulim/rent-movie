@@ -20,4 +20,6 @@ public interface MovieRepository extends Repository<Movie, String> {
     Page<Movie> findAll(Pageable pageable);
 
     Optional<Movie> findById(String movieId);
+
+    void save(Movie movie);
 }

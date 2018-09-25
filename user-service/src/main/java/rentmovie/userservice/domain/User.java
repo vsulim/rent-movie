@@ -16,6 +16,7 @@ import java.util.*;
 
 @Value
 @Builder
+@AllArgsConstructor
 @NoArgsConstructor(force = true)
 @Document(collection = "Users")
 public class User implements UserDetails {
@@ -25,7 +26,6 @@ public class User implements UserDetails {
     private String username;
     private String email;
     private String password;
-    private List<String> film_ids;
 
     @CreatedDate
     private LocalDateTime creationDate;
@@ -35,7 +35,9 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
+
         Set<GrantedAuthority> authorities = new HashSet<>();
+
         authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
 
         return authorities;

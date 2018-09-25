@@ -34,8 +34,8 @@ public class UserSpecTest {
                 .password("password2")
                 .build();
 
-        User user1 = userFacade.createUser(postUserDto);
-        User user2 = userFacade.createUser(postUserDto2);
+        User user1 = userFacade.addUser(postUserDto);
+        User user2 = userFacade.addUser(postUserDto2);
 
         assertEquals(2, userFacade.getAllUsers().size());
     }
