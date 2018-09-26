@@ -1,20 +1,24 @@
-package rentmovie.rentservice;
+package rentmovie.rentservice.domain;
 
-import org.apache.tomcat.jni.Local;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import rentmovie.rentservice.dto.PostRentDto;
 
-import rentmovie.rentservice.Rent.RentalPeriod;
+import rentmovie.rentservice.domain.Rent.RentPeriod;
+import rentmovie.rentservice.proxy.MovieProxy;
 
-import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 
+@AllArgsConstructor
+@NoArgsConstructor
 public class RentManager {
+
+    private MovieProxy movieProxy;
 
     public Rent processRent(PostRentDto rentDto, BigDecimal moviePrice) {
 
-        RentalPeriod period = RentalPeriod.toRentalPeriod(rentDto.getRentalPeriod());
+        RentPeriod period = RentPeriod.toRentalPeriod(rentDto.getRentPeriod());
 
         return Rent.builder()
                 .id(rentDto.getId())
@@ -27,24 +31,24 @@ public class RentManager {
                 .build();
     }
 
-    private BigDecimal calculateTotalPrice(BigDecimal moviePrice, RentalPeriod period) {
+    private BigDecimal calculateTotalPrice(BigDecimal moviePrice, RentPeriod period) {
 
-        if (period.equals(RentalPeriod.TWO_WEEKS)) {
+        if (period.equals(RentPeriod.TWO_WEEKS)) {
             moviePrice = moviePrice.multiply(new BigDecimal(2));
 
-        } else if (period.equals(RentalPeriod.MONTH)) {
+        } else if (period.equals(RentPeriod.MONTH)) {
             moviePrice = moviePrice.multiply(new BigDecimal(3));
         }
 
         return moviePrice;
     }
 
-    private LocalDate calculateExpirationDate(RentalPeriod period) {
+    private LocalDate calculateExpirationDate(RentPeriod period) {
 
-        if (period.equals(RentalPeriod.WEEK)) {
+        if (period.equals(RentPeriod.WEEK)) {
             return LocalDate.now().plusDays(7);
 
-        } else if (period.equals(RentalPeriod.TWO_WEEKS)) {
+        } else if (period.equals(RentPeriod.TWO_WEEKS)) {
             return LocalDate.now().plusDays(14);
         }
 

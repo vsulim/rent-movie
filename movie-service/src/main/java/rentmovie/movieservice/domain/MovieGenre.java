@@ -8,7 +8,7 @@ public enum MovieGenre {
     ROMANCE, FANTASY, CRIME,
     DRAMA, ANIMATION,ACTION;
 
-    static MovieGenre toGenre(String givenGenre) {
+    public static MovieGenre toGenre(String givenGenre) {
         return Arrays.stream(MovieGenre.values())
                 .filter(genre -> isCorrect(genre, givenGenre))
                 .findAny()

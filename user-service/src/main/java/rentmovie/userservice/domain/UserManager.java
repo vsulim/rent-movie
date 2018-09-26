@@ -3,7 +3,7 @@ package rentmovie.userservice.domain;
 import rentmovie.userservice.dto.PostUserDto;
 import rentmovie.userservice.infrastructure.security.SecurityUtility;
 
-public class UserCreator {
+public class UserManager {
 
     public User create(PostUserDto postUserDto) {
         return User.builder()

@@ -2,7 +2,6 @@ package rentmovie.userservice.domain;
 
 import lombok.AllArgsConstructor;
 import rentmovie.userservice.dto.PostUserDto;
-import rentmovie.userservice.infrastructure.security.SecurityUtility;
 
 import java.util.List;
 
@@ -10,10 +9,11 @@ import java.util.List;
 public class UserFacade {
 
     private UserRepository userRepository;
-    private UserCreator userCreator;
+    private UserManager userManager;
 
     public User addUser(PostUserDto postUserDto) {
-        User user = userCreator.create(postUserDto);
+
+        User user = userManager.create(postUserDto);
 
         return userRepository.insert(user);
     }

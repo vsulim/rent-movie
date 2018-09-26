@@ -80,10 +80,8 @@ public class MovieInitializer{
 
             Random random = new Random();
 
-            Director director = Director.builder()
-                    .directorName(fields.readString("Director Name"))
-                    .directorRate(fields.readInt("Director Rate"))
-                    .build();
+            Director director =
+                    new Director(fields.readString("Director Name"), fields.readInt("Director Rate"));
 
             return Movie.builder()
                     .name(fields.readString("Name"))

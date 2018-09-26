@@ -5,6 +5,7 @@ import lombok.experimental.Wither;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import rentmovie.movieservice.dto.MovieDto;
 
 import javax.validation.Valid;
 import java.math.BigDecimal;
@@ -18,6 +19,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
+@EqualsAndHashCode(of = "id")
 @Document(collection = "Movies")
 public class Movie {
 
@@ -27,18 +29,15 @@ public class Movie {
     private MovieGenre genre;
     private String leadStudio;
     private BigDecimal price;
-    private Integer audienceScore;
+    private int audienceScore;
     private int inStockNumber;
     private Director director;
     private String year;
 
     @Value
-    @Builder
-    @AllArgsConstructor
-    @NoArgsConstructor(force = true)
     public static class Director {
 
         private String directorName;
-        private Integer directorRate;
+        private int directorRate;
     }
 }

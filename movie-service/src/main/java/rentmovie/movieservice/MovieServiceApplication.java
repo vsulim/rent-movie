@@ -2,11 +2,12 @@ package rentmovie.movieservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import rentmovie.movieservice.domain.MovieInitializer;
-import rentmovie.movieservice.domain.MovieRepository;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableDiscoveryClient
+@EnableFeignClients("rentmovie.movieservice")
 public class MovieServiceApplication {
 
 	public static void main(String[] args) {

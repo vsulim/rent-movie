@@ -2,7 +2,6 @@ package rentmovie.movieservice.domain;
 
 public class MovieManager {
 
-
     public Movie actualizeStock(Movie movie, String action) {
 
         Integer inStock = movie.getInStockNumber();
@@ -13,4 +12,5 @@ public class MovieManager {
             return movie.withInStockNumber(inStock + 1);
         }
     }
+
 }

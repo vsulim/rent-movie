@@ -1,12 +1,13 @@
 package rentmovie.rentservice.proxy;
 
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 
 @FeignClient("movie-service")
-public interface MovieProxy  {
+public interface MovieProxy {
 
     @GetMapping("/movies/price/{movieId}")
     BigDecimal retrieveMoviePrice(@PathVariable("movieId") String movieId);

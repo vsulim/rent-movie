@@ -8,23 +8,21 @@ import lombok.Value;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Null;
 import java.io.Serializable;
+import java.math.BigDecimal;
+import java.time.LocalDate;
 
 @Value
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
-public class PostRentDto implements Serializable {
+public class RentDto implements Serializable {
 
-    @Null
     private String id;
-
-    @NotNull
     private String userId;
-
-    @NotNull
     private String movieId;
-
-    @NotNull
     private String rentPeriod;
+    private BigDecimal rentTotalPrice;
 
+    private LocalDate rentDate;
+    private LocalDate rentExpirationDate;
 }

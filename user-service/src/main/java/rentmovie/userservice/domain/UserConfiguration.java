@@ -8,6 +8,7 @@ import rentmovie.userservice.domain.security.UserSecurityService;
 public class UserConfiguration {
 
     public UserFacade accountCreator(){
+
         UserRepository userRepository = new InMemoryUserRepository();
 
         return userFacade(userRepository);
@@ -15,14 +16,16 @@ public class UserConfiguration {
 
     @Bean
     public UserFacade userFacade(UserRepository userRepository) {
-        UserCreator userCreator = new UserCreator();
 
-        return new UserFacade(userRepository,userCreator);
+        UserManager userManager = new UserManager();
+
+        return new UserFacade(userRepository, userManager);
     }
 
     @Bean
     public UserSecurityService userSecurityService(UserRepository userRepository) {
-        UserCreator userCreator = new UserCreator();
+
+        UserManager userManager = new UserManager();
 
         return new UserSecurityService(userRepository);
     }

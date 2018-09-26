@@ -1,18 +1,18 @@
-package rentmovie.rentservice;
+package rentmovie.rentservice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
+import lombok.Value;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import rentmovie.rentservice.dto.RentDto;
 
-import javax.validation.Valid;
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Arrays;
 
-@Valid
+@Value
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
@@ -23,24 +23,37 @@ public class Rent {
     private String id;
     private String movieId;
     private String userId;
-    private RentalPeriod rentPeriod;
+    private RentPeriod rentPeriod;
     private BigDecimal rentTotalPrice;
     private LocalDate rentDate;
     private LocalDate rentExpirationDate;
 
-    public enum RentalPeriod {
+
+    public enum RentPeriod {
         WEEK, TWO_WEEKS, MONTH;
 
-        static RentalPeriod toRentalPeriod(String givenRentalPeriod) {
-            return Arrays.stream(RentalPeriod.values())
+        static RentPeriod toRentalPeriod(String givenRentalPeriod) {
+            return Arrays.stream(RentPeriod.values())
                     .filter(period -> isCorrect(period, givenRentalPeriod))
                     .findAny()
                     .orElseThrow(IllegalArgumentException::new);
         }
 
-        private static boolean isCorrect(RentalPeriod period, String givenRentalPeriod) {
+        private static boolean isCorrect(RentPeriod period, String givenRentalPeriod) {
 
             return period.name().equalsIgnoreCase(givenRentalPeriod);
         }
+    }
+
+    public RentDto convertToDto() {
+        return RentDto.builder()
+                .id(id)
+                .movieId(movieId)
+                .userId(userId)
+                .rentPeriod(String.valueOf(rentPeriod))
+                .rentTotalPrice(rentTotalPrice)
+                .rentDate(rentDate)
+                .rentExpirationDate(rentExpirationDate)
+                .build();
     }
 }

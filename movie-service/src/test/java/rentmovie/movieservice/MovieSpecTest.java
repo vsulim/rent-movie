@@ -12,9 +12,14 @@ import java.math.BigDecimal;
 import java.util.Optional;
 
 import rentmovie.movieservice.domain.Movie.Director;
+import rentmovie.movieservice.dto.DirectorDto;
+import rentmovie.movieservice.dto.MovieDto;
+import rentmovie.movieservice.dto.PostMovieDto;
+import rentmovie.movieservice.exception.MovieNotFoundException;
 
 import static java.util.Optional.*;
 import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class MovieSpecTest {
 
@@ -22,41 +27,50 @@ public class MovieSpecTest {
 
     @Before
     public void setUp(){
-        Director director = new Director("Mark Wolsky", 9);
 
-        Movie movie = createMovie("ID1", "Harry Potter", 10, MovieGenre.FANTASY,
+        DirectorDto director = new DirectorDto("Mark Wolsky", 9);
+
+        PostMovieDto movie = createMovie("ID1", "Harry Potter", 10, "Fantasy",
                 "Independent", new BigDecimal(14.99), "2015",director);
 
-        movieFacade.save(movie);
+        movieFacade.addMovie(movie);
     }
 
     @Test
-    public void shouldSubtractStockNumber(){
+    public void shouldSubtractStockNumber( ){
 
         String action = "subtract";
         String movieId = "ID1";
 
         movieFacade.actualizeInStockNumber(action, movieId);
-        Movie movie = movieFacade.findById(movieId);
+        MovieDto movieDto = movieFacade.findById(movieId);
 
-        assertEquals(9, movie.getInStockNumber());
+        assertEquals(9, movieDto.getInStockNumber());
     }
 
     @Test
-    public void shouldAddInStockNumber(){
+    public void shouldAddInStockNumber() {
 
         String action = "add";
         String movieId = "ID1";
 
         movieFacade.actualizeInStockNumber(action, movieId);
-        Movie movie = movieFacade.findById(movieId);
+        MovieDto movieDto = movieFacade.findById(movieId);
 
-        assertEquals(11, movie.getInStockNumber());
+        assertEquals(11, movieDto.getInStockNumber());
     }
 
-    private static Movie createMovie(String id, String name, int inStockNumber, MovieGenre genre,
-                                     String leadStudio, BigDecimal price, String year, Director director){
-        return Movie.builder()
+    @Test(expected = MovieNotFoundException.class)
+    public void shouldThrowMovieNotFoundException() {
+
+        String exampleId = "gdfasd214asd";
+
+        movieFacade.findById(exampleId);
+    }
+
+    private static PostMovieDto createMovie(String id, String name, int inStockNumber, String genre,
+                                     String leadStudio, BigDecimal price, String year, DirectorDto director){
+        return PostMovieDto.builder()
                 .id(id)
                 .name(name)
                 .year(year)

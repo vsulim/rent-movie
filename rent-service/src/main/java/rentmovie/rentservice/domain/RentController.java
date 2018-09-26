@@ -1,9 +1,10 @@
-package rentmovie.rentservice;
+package rentmovie.rentservice.domain;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import rentmovie.rentservice.proxy.MovieProxy;
 import rentmovie.rentservice.dto.PostRentDto;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/rents")
@@ -15,6 +16,11 @@ public class RentController {
     @PostMapping
     public void rentMovie(@RequestBody PostRentDto rentDto){
         rentFacade.processRent(rentDto);
+    }
+
+    @GetMapping("movie_ids/user/{userId}")
+    public List<String> getMovieIdsOfUser(@PathVariable String userId) {
+        return rentFacade.findMovieIdsOfUser(userId);
     }
 
 }
