@@ -36,6 +36,6 @@ public class MovieFacade {
     }
 
     public void save(Movie movie){
-        movieRepository.insert(movie);
+        movieRepository.save(movie);
     }
 }
