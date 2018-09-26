@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import rentmovie.movieservice.dto.MovieDto;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @RestController
 @AllArgsConstructor
@@ -36,6 +37,11 @@ public class MovieController {
     @PutMapping("/actualize/{movieId}")
     public void actualizeStockNumber(@PathVariable String movieId, @RequestBody String action) {
         movieFacade.actualizeInStockNumber(action, movieId);
+    }
+
+    @GetMapping("/of/{userId}")
+    public List<MovieDto> getMoviesOfUser(@PathVariable String userId){
+        return movieFacade.findAllRentedMoviesOfUser(userId);
     }
 
 }

@@ -1,5 +1,6 @@
 package rentmovie.rentservice.domain;
 
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
@@ -16,5 +17,10 @@ public class InMemoryRentRepository implements RentRepository {
     @Override
     public Optional<Rent> findById(String id) {
         return Optional.ofNullable(rents.get(id));
+    }
+
+    @Override
+    public List<Rent> findAllByUserId(String userId) {
+        return null;
     }
 }

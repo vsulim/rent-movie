@@ -18,9 +18,13 @@ public class RentController {
         rentFacade.processRent(rentDto);
     }
 
-    @GetMapping("movie_ids/user/{userId}")
+    @GetMapping("movie_ids/of/{userId}")
     public List<String> getMovieIdsOfUser(@PathVariable String userId) {
         return rentFacade.findMovieIdsOfUser(userId);
     }
 
+    @GetMapping("/return}")
+    public void returnRentedMovie(@RequestParam String rentId){
+        rentFacade.processReturnRentedMovie(rentId);
+    }
 }

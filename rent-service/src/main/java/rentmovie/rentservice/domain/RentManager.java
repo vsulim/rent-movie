@@ -1,23 +1,26 @@
 package rentmovie.rentservice.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import rentmovie.rentservice.dto.PostRentDto;
 
 import rentmovie.rentservice.domain.Rent.RentPeriod;
+import rentmovie.rentservice.dto.PunishmentDto;
 import rentmovie.rentservice.proxy.MovieProxy;
+import rentmovie.rentservice.proxy.PunishmentProxy;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.Period;
 
 @AllArgsConstructor
-@NoArgsConstructor
 public class RentManager {
 
     private MovieProxy movieProxy;
+    private PunishmentProxy punishmentProxy;
 
-    public Rent processRent(PostRentDto rentDto, BigDecimal moviePrice) {
+    public Rent processRent(PostRentDto rentDto) {
 
+        BigDecimal moviePrice = movieProxy.retrieveMoviePrice(rentDto.getMovieId());
         RentPeriod period = RentPeriod.toRentalPeriod(rentDto.getRentPeriod());
 
         return Rent.builder()
@@ -29,6 +32,32 @@ public class RentManager {
                 .rentExpirationDate(calculateExpirationDate(period))
                 .rentDate(LocalDate.now())
                 .build();
+    }
+
+    public Rent processReturn(Rent rent) {
+
+        long numberOfExceededDays =
+                isPeriodDateExceeded(rent.getRentDate(), rent.getRentExpirationDate());
+
+        if (numberOfExceededDays > 0){
+            punishmentProxy.addPunishment(rent.getUserId(), numberOfExceededDays);
+        }
+
+        return rent;
+    }
+
+    public void actualizeStockNumber(String movieId, String subtract) {
+        movieProxy.actualizeStockNumber(movieId,subtract);
+    }
+
+    private long isPeriodDateExceeded(LocalDate rentDate, LocalDate expirationDate){
+
+        LocalDate actualDate = LocalDate.now();
+
+        Period rentPeriod = Period.between(rentDate, expirationDate);
+        Period exceedPeriod = Period.between(rentDate, actualDate);
+
+        return exceedPeriod.getDays() - rentPeriod.getDays();
     }
 
     private BigDecimal calculateTotalPrice(BigDecimal moviePrice, RentPeriod period) {
@@ -54,4 +83,5 @@ public class RentManager {
 
         return LocalDate.now().plusDays(30);
     }
+
 }

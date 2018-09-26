@@ -6,6 +6,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import rentmovie.rentservice.domain.RentConfiguration;
 import rentmovie.rentservice.domain.RentFacade;
+import rentmovie.rentservice.domain.RentManager;
 import rentmovie.rentservice.dto.PostRentDto;
 import rentmovie.rentservice.dto.RentDto;
 import rentmovie.rentservice.proxy.MovieProxy;
@@ -21,8 +22,12 @@ public class RentSpecTest {
     @InjectMocks
     private RentFacade rentFacade = new RentConfiguration().rentFacade();
 
+    @InjectMocks
+    private RentManager rentManager = rentFacade.getRentManager();
+
     @Mock
     private MovieProxy movieProxy;
+
 
     @Before
     public void setUp(){

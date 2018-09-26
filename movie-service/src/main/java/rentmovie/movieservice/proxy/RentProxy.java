@@ -9,6 +9,6 @@ import java.util.List;
 @FeignClient("rent-service")
 public interface RentProxy {
 
-    @GetMapping("/rents/movie_ids/user/{userId}")
-    List<String> retrievieMoveIds(@PathVariable("userId") String userId);
+    @GetMapping("/rents/movie_ids/of/{userId}")
+    List<String> retrieveMoveIds(@PathVariable("userId") String userId);
 }

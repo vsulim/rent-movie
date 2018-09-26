@@ -1,34 +1,46 @@
 package rentmovie.rentservice.domain;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import rentmovie.rentservice.dto.PostRentDto;
+import rentmovie.rentservice.dto.PunishmentDto;
 import rentmovie.rentservice.dto.RentDto;
+import rentmovie.rentservice.exception.UserRentPunishmentException;
 import rentmovie.rentservice.proxy.MovieProxy;
+import rentmovie.rentservice.proxy.PunishmentProxy;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.stream.Collector;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Slf4j
 @AllArgsConstructor
 public class RentFacade {
 
-    private RentRepository rentRepository;
-    private MovieProxy movieProxy;
+    @Getter
     private RentManager rentManager;
+    private MovieProxy movieProxy;
+    private RentRepository rentRepository;
+    private PunishmentProxy punishmentProxy;
 
     public RentDto processRent(PostRentDto rentDto) {
 
-        BigDecimal moviePrice = movieProxy.retrieveMoviePrice(rentDto.getMovieId());
+        Optional<PunishmentDto> punishment =
+                punishmentProxy.findAnyPunishment(rentDto.getUserId());
 
-        Rent rent = rentManager.processRent(rentDto, moviePrice);
+        if (punishment.isPresent()) {
+            throw new UserRentPunishmentException("You can't rent a movie. " +
+                    "Please adjust your punishment: " + punishment.get().getPunishmentAmount());
+        }
+
+        Rent rent = rentManager.processRent(rentDto);
+
         rentRepository.insert(rent);
         log.info("Added rent with id {} ", rent.getId());
 
-        movieProxy.actualizeStockNumber(rentDto.getMovieId(), "Subtract");
+        rentManager.actualizeStockNumber(rentDto.getMovieId(), "Subtract");
 
         return rent.convertToDto();
     }
@@ -44,5 +56,13 @@ public class RentFacade {
                 .stream()
                 .map(Rent::getMovieId)
                 .collect(Collectors.toList());
+    }
+
+    public void processReturnRentedMovie(String rentId) {
+
+        Rent rent = rentRepository.findById(rentId)
+                .orElseThrow(() -> new NoSuchElementException());
+
+        Rent processedRent = rentManager.processReturn(rent);
     }
 }

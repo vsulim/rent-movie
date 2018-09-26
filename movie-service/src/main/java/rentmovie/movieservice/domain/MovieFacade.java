@@ -55,13 +55,14 @@ public class MovieFacade {
         log.info("Added movie {} to database" + movie.getName());
     }
 
-    public List<Movie> retrieveAllRentedMoviesOfUser(String userId){
+    public List<MovieDto> findAllRentedMoviesOfUser(String userId){
 
-        List<String> movieIdsAssignedToUser = rentProxy.retrievieMoveIds(userId);
+        List<String> movieIdsAssignedToUser = rentProxy.retrieveMoveIds(userId);
 
         return movieIdsAssignedToUser.stream()
                     .map(id -> movieRepository.findById(id)
-                        .orElseThrow(() -> new MovieNotFoundException("Movie with id " + id + " not found.")))
+                            .orElseThrow(() -> new MovieNotFoundException("Movie with id " + id + " not found.")))
+                    .map(converter::convertToDto)
                     .collect(Collectors.toList());
     }
 }

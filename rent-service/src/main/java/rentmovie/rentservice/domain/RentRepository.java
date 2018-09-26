@@ -1,5 +1,6 @@
 package rentmovie.rentservice.domain;
 
+import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.repository.Repository;
 import rentmovie.rentservice.dto.RentDto;
 

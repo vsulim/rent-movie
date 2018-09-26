@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="movie-service" />
+        <module name="punishment-service" />
         <module name="rent-movie-app" />
         <module name="rent-service" />
         <module name="user-service" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="movie-service" target="1.8" />
+      <module name="punishment-service" target="1.8" />
       <module name="rent-movie-app" target="1.8" />
       <module name="rent-service" target="1.8" />
       <module name="rental-service" target="1.8" />
