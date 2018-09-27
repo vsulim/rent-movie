@@ -13,5 +13,9 @@ public interface RentRepository extends Repository<Rent, String> {
 
     Optional<Rent> findById(String id);
 
+    Optional<Rent> findByUserIdAndMovieId(String userId, String movieId);
+
     List<Rent> findAllByUserId(String userId);
+
+    void delete(Rent processedRent);
 }

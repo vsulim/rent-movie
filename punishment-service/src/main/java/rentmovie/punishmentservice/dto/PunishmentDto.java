@@ -1,22 +1,20 @@
-package rentmovie.rentservice.dto;
+package rentmovie.punishmentservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 import lombok.Value;
 
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 @Value
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor(force = true)
-public class ReturnRentDto implements Serializable {
+public class PunishmentDto implements Serializable {
 
-    @NotNull
+    private String id;
     private String userId;
-
-    @NotNull
-    private String movieId;
+    private BigDecimal punishmentAmount;
 }

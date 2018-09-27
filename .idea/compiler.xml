@@ -30,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
       <module name="movie-service" options="-parameters" />
+      <module name="punishment-service" options="-parameters" />
       <module name="rent-movie-app" options="-parameters" />
       <module name="rent-service" options="-parameters" />
       <module name="user-service" options="-parameters" />

@@ -20,7 +20,17 @@ public class InMemoryRentRepository implements RentRepository {
     }
 
     @Override
+    public Optional<Rent> findByUserIdAndMovieId(String userId, String movieId) {
+        return Optional.empty();
+    }
+
+    @Override
     public List<Rent> findAllByUserId(String userId) {
         return null;
+    }
+
+    @Override
+    public void delete(Rent processedRent) {
+        rents.remove(processedRent);
     }
 }

@@ -3,6 +3,7 @@ package rentmovie.rentservice.domain;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.transaction.annotation.Transactional;
 import rentmovie.rentservice.dto.PostRentDto;
 import rentmovie.rentservice.dto.PunishmentDto;
 import rentmovie.rentservice.dto.RentDto;
@@ -27,14 +28,6 @@ public class RentFacade {
 
     public RentDto processRent(PostRentDto rentDto) {
 
-        Optional<PunishmentDto> punishment =
-                punishmentProxy.findAnyPunishment(rentDto.getUserId());
-
-        if (punishment.isPresent()) {
-            throw new UserRentPunishmentException("You can't rent a movie. " +
-                    "Please adjust your punishment: " + punishment.get().getPunishmentAmount());
-        }
-
         Rent rent = rentManager.processRent(rentDto);
 
         rentRepository.insert(rent);
@@ -58,11 +51,14 @@ public class RentFacade {
                 .collect(Collectors.toList());
     }
 
+    @Transactional
     public void processReturnRentedMovie(String rentId) {
 
         Rent rent = rentRepository.findById(rentId)
                 .orElseThrow(() -> new NoSuchElementException());
 
         Rent processedRent = rentManager.processReturn(rent);
+
+        rentRepository.delete(processedRent);
     }
 }

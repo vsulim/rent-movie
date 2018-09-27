@@ -3,6 +3,7 @@ package rentmovie.rentservice.domain;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import rentmovie.rentservice.dto.PostRentDto;
+import rentmovie.rentservice.dto.ReturnRentDto;
 
 import java.util.List;
 
@@ -23,8 +24,8 @@ public class RentController {
         return rentFacade.findMovieIdsOfUser(userId);
     }
 
-    @GetMapping("/return}")
-    public void returnRentedMovie(@RequestParam String rentId){
+    @DeleteMapping("/return")
+    public void returnRentedMovie(@RequestParam("rentId") String rentId){
         rentFacade.processReturnRentedMovie(rentId);
     }
 }
