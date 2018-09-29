@@ -30,6 +30,7 @@
 		<module>user-service</module>
 		<module>movie-service</module>
 		<module>zuul-gateway</module>
+		<module>punishment-service</module>
 	</modules>
 
 	<dependencies>
