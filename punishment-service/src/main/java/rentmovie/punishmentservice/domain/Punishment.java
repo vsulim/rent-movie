@@ -28,6 +28,7 @@ public class Punishment {
                 .id(id)
                 .userId(userId)
                 .punishmentAmount(punishmentAmount)
+                .punishmentReason(punishmentReason)
                 .build();
     }
 }

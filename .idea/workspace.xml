@@ -1,20 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java" line="27" mnemonic="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="08d7b526-eadb-492b-857d-476f41146c98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java" beforeDir="false" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/InMemoryRentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/InMemoryRentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/ReturnRentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/ReturnRentDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/InMemoryPunishmentRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/exception/PunishmentNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/proxy/UserProxy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/exception/UserExceptionHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/exception/UserNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/UserDto.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/pom.xml" afterPath="$PROJECT_DIR$/punishment-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/PunishmentServiceApplication.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/PunishmentServiceApplication.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentConfiguration.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentFacade.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentFacade.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentRepository.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentRepository.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/PunishmentDto.java" afterPath="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/PunishmentDto.java" />
+      <change beforePath="$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentSpecTest.java" afterPath="$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentSpecTest.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PunishmentDto.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PunishmentDto.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentExceptionHandler.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentExceptionHandler.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/UserRentPunishmentException.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentPunishmentException.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java" afterPath="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java" />
+      <change beforePath="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java" afterPath="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/UserServiceApplication.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/UserServiceApplication.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/InMemoryUserRepository.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/InMemoryUserRepository.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserConfiguration.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserController.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserFacade.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserFacade.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserManager.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserManager.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserRepository.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserRepository.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/rentmovie/userservice/UserSpecTest.java" afterPath="$PROJECT_DIR$/user-service/src/test/java/rentmovie/userservice/UserSpecTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/rental-service/target/" />
     <ignored path="$PROJECT_DIR$/zuul-gateway/target/" />
@@ -25,6 +51,7 @@
     <ignored path="$PROJECT_DIR$/rent-service/target/" />
     <ignored path="$PROJECT_DIR$/punishment-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,36 +65,13 @@
     </option>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="PunishmentFacade.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentSpecTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="459">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,62 +89,73 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/exception/MovieException.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/exception/MovieNotFoundException.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/exception/MovieExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/RentDto.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/Rent.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserManager.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserFacade.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserConfiguration.java" />
-        <option value="$PROJECT_DIR$/user-service/src/test/java/rentmovie/userservice/UserSpecTest.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieConfiguration.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieRepository.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/MovieServiceApplication.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/MovieProxy.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/test/java/rentmovie/movieservice/MovieSpecTest.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieFacade.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java" />
-        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/proxy/RentProxy.java" />
-        <option value="$PROJECT_DIR$/movie-service/pom.xml" />
-        <option value="$PROJECT_DIR$/rent-service/pom.xml" />
-        <option value="$PROJECT_DIR$/user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/UpdateRentDto.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/Punishment.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/PunishmentServiceApplication.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/UserRentPunishmentException.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/proxydto/PunishmentDto.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PunishmentDto.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/PunishmentDto.java" />
         <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentAmountCalculator.java" />
         <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentAmountCalculatorImpl.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentConfiguration.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java" />
         <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentCalculatorImpl.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentRepository.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentRepository.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/ReturnRentDto.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/InMemoryRentRepository.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentController.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java" />
-        <option value="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/PunishmentDto.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/exception/PunishmentNotFound.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PunishmentDto.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/exception/PunishmentExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/test/java/rentmovie/movieservice/MovieSpecTest.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java" />
+        <option value="$PROJECT_DIR$/punishment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/PunishmentServiceApplication.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/exception/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/exception/UserExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserRepository.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserConfiguration.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/InMemoryUserRepository.java" />
+        <option value="$PROJECT_DIR$/user-service/src/test/java/rentmovie/userservice/UserSpecTest.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/AdjustPunishmentDto.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentNotFoundException.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentPunishmentException.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentController.java" />
+        <option value="$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/exception/PunishmentNotFoundException.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentRepository.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentConfiguration.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java" />
         <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java" />
-        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentFacade.java" />
         <option value="$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentSpecTest.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/InMemoryPunishmentRepository.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserFacade.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserManager.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserController.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/proxy/UserProxy.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/UserServiceApplication.java" />
+        <option value="$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentFacade.java" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java" />
+        <option value="$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -151,26 +166,40 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="punishment-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3279" />
-    <option name="y" value="-164" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="360" />
+    <option name="y" value="163" />
     <option name="width" value="1932" />
-    <option name="height" value="1045" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,204 +210,95 @@
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
+              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
+              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
+              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
+              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
               <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
+              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
+              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="movieservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="punishmentservice" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
               <item name="punishment-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -476,17 +396,6 @@
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
               <item name="rentservice" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
-              <item name="rentservice" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
@@ -504,14 +413,6 @@
               <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
               <item name="rent-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-movie-app" type="462c0819:PsiDirectoryNode" />
-              <item name="rent-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -607,7 +508,7 @@
               <item name="rentmovie" type="462c0819:PsiDirectoryNode" />
               <item name="userservice" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rent-movie-app" type="b2602c69:ProjectViewProjectNode" />
@@ -658,6 +559,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -670,7 +574,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538054846855" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop-app/server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -712,157 +616,195 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.3024892" />
+    <option name="contentProportion" value="0.30156815" />
   </component>
-  <component name="RunManager" selected="JUnit.RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishment">
-    <configuration name="RentSpecTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="rent-service" />
-      <extension name="coverage">
+  <component name="RunManager" selected="JUnit.RentSpecTest">
+    <configuration name="PunishmentSpecTest.shouldFindPunishmentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rentmovie.punishmentservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="punishment-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rentmovie.punishmentservice" />
+      <option name="MAIN_CLASS_NAME" value="rentmovie.punishmentservice.PunishmentSpecTest" />
+      <option name="METHOD_NAME" value="shouldFindPunishmentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RentSpecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="rentmovie.rentservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="rent-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="rentmovie.rentservice" />
       <option name="MAIN_CLASS_NAME" value="rentmovie.rentservice.RentSpecTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
-    <configuration name="RentSpecTest.shouldProcessRentToDatabase" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="rent-service" />
-      <extension name="coverage">
+    <configuration name="RentSpecTest.shouldCallPunishmentServiceIfReturnDateExceedsPeriod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="rentmovie.rentservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="rent-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rentmovie.rentservice" />
+      <option name="MAIN_CLASS_NAME" value="rentmovie.rentservice.RentSpecTest" />
+      <option name="METHOD_NAME" value="shouldCallPunishmentServiceIfReturnDateExceedsPeriod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RentSpecTest.shouldProcessRentToDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="rentmovie.rentservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="rent-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="rentmovie.rentservice" />
       <option name="MAIN_CLASS_NAME" value="rentmovie.rentservice.RentSpecTest" />
       <option name="METHOD_NAME" value="shouldProcessRentToDatabase" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
-    <configuration name="RentSpecTest.shouldProcessRentToDatabaseXD" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="rent-service" />
-      <extension name="coverage">
+    <configuration name="UserSpecTest.shouldAddPunishmentId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="rentmovie.rentservice.*" />
+          <option name="PATTERN" value="rentmovie.userservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rentmovie.rentservice" />
-      <option name="MAIN_CLASS_NAME" value="rentmovie.rentservice.RentSpecTest" />
-      <option name="METHOD_NAME" value="shouldProcessRentToDatabaseXD" />
+      <module name="user-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rentmovie.userservice" />
+      <option name="MAIN_CLASS_NAME" value="rentmovie.userservice.UserSpecTest" />
+      <option name="METHOD_NAME" value="shouldAddPunishmentId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishment" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="rent-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rentmovie.rentservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rentmovie.rentservice" />
-      <option name="MAIN_CLASS_NAME" value="rentmovie.rentservice.RentSpecTest" />
-      <option name="METHOD_NAME" value="shouldThrowUserRentPunishmentExceptionIfUserHasPunishment" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishmentOrAnyDebt" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="rent-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rentmovie.rentservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rentmovie.rentservice" />
-      <option name="MAIN_CLASS_NAME" value="rentmovie.rentservice.RentSpecTest" />
-      <option name="METHOD_NAME" value="shouldThrowUserRentPunishmentExceptionIfUserHasPunishmentOrAnyDebt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.eurekaserver.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="eureka-server" />
+      <envs />
     </configuration>
     <configuration name="MovieServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="movie-service" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.movieservice.MovieServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="movie-service" />
+      <envs />
     </configuration>
     <configuration name="PunishmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="punishment-service" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.punishmentservice.PunishmentServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="punishment-service" />
+      <envs />
     </configuration>
     <configuration name="RentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="rent-service" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.rentservice.RentServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="rent-service" />
+      <envs />
     </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.userservice.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="user-service" />
+      <envs />
     </configuration>
     <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zuul-gateway" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="rentmovie.zuulgateway.ZuulGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <module name="zuul-gateway" />
+      <envs />
     </configuration>
-    <list>
-      <item itemvalue="JUnit.RentSpecTest.shouldProcessRentToDatabase" />
-      <item itemvalue="JUnit.RentSpecTest.shouldProcessRentToDatabaseXD" />
-      <item itemvalue="JUnit.RentSpecTest" />
-      <item itemvalue="Spring Boot.ZuulGatewayApplication" />
-      <item itemvalue="Spring Boot.MovieServiceApplication" />
-      <item itemvalue="Spring Boot.UserServiceApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.RentServiceApplication" />
-      <item itemvalue="Spring Boot.PunishmentServiceApplication" />
-      <item itemvalue="JUnit.RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishmentOrAnyDebt" />
-      <item itemvalue="JUnit.RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishment" />
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZuulGatewayApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MovieServiceApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.UserServiceApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.RentServiceApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.PunishmentServiceApplication" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.UserSpecTest.shouldAddPunishmentId" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.RentSpecTest.shouldProcessRentToDatabase" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.PunishmentSpecTest.shouldFindPunishmentById" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.RentSpecTest.shouldCallPunishmentServiceIfReturnDateExceedsPeriod" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.RentSpecTest" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishment" />
-        <item itemvalue="JUnit.RentSpecTest.shouldProcessRentToDatabase" />
-        <item itemvalue="JUnit.RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishmentOrAnyDebt" />
-        <item itemvalue="JUnit.RentSpecTest" />
-        <item itemvalue="JUnit.RentSpecTest.shouldProcessRentToDatabaseXD" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RentSpecTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RentSpecTest.shouldProcessRentToDatabase" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RentSpecTest.shouldCallPunishmentServiceIfReturnDateExceedsPeriod" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserSpecTest.shouldAddPunishmentId" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PunishmentSpecTest.shouldFindPunishmentById" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -886,89 +828,94 @@
       <workItem from="1537943153330" duration="1504000" />
       <workItem from="1537978717172" duration="16786000" />
       <workItem from="1538035589753" duration="16214000" />
+      <workItem from="1538121243391" duration="23298000" />
+      <workItem from="1538207707012" duration="2508000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.26 at 21h 39m 57s.xml">
+    <history-entry file="PunishmentSpecTest_shouldFindPunishmentById - 2018.09.28 at 19h 09m 03s.xml">
+      <configuration name="PunishmentSpecTest.shouldFindPunishmentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PunishmentSpecTest_shouldFindPunishmentById - 2018.09.28 at 19h 15m 50s.xml">
+      <configuration name="PunishmentSpecTest.shouldFindPunishmentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PunishmentSpecTest_shouldFindPunishmentById - 2018.09.28 at 19h 16m 17s.xml">
+      <configuration name="PunishmentSpecTest.shouldFindPunishmentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PunishmentSpecTest_shouldFindPunishmentById - 2018.09.28 at 19h 18m 52s.xml">
+      <configuration name="PunishmentSpecTest.shouldFindPunishmentById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentSpecTest - 2018.09.29 at 09h 58m 52s.xml">
+      <configuration name="RentSpecTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentSpecTest_shouldCallPunishmentServiceIfReturnDateExceedsPeriod - 2018.09.29 at 09h 58m 06s.xml">
+      <configuration name="RentSpecTest.shouldCallPunishmentServiceIfReturnDateExceedsPeriod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentSpecTest_shouldCallPunishmentServiceIfReturnDateExceedsPeriod - 2018.09.29 at 09h 58m 40s.xml">
+      <configuration name="RentSpecTest.shouldCallPunishmentServiceIfReturnDateExceedsPeriod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.29 at 09h 58m 44s.xml">
       <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.26 at 21h 41m 43s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
+    <history-entry file="UserSpecTest_shouldAddPunishmentId - 2018.09.28 at 19h 30m 51s.xml">
+      <configuration name="UserSpecTest.shouldAddPunishmentId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.26 at 21h 43m 49s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.27 at 10h 31m 00s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.27 at 13h 50m 14s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldThrowUserRentPunishmentExceptionIfUserHasPunishmentOrAnyDebt - 2018.09.27 at 13h 58m 40s.xml">
-      <configuration name="RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishmentOrAnyDebt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.27 at 13h 59m 04s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.27 at 13h 59m 20s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldProcessRentToDatabase - 2018.09.27 at 14h 57m 25s.xml">
-      <configuration name="RentSpecTest.shouldProcessRentToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RentSpecTest_shouldThrowUserRentPunishmentExceptionIfUserHasPunishment - 2018.09.27 at 14h 57m 56s.xml">
-      <configuration name="RentSpecTest.shouldThrowUserRentPunishmentExceptionIfUserHasPunishment" configurationId="JUnit" />
+    <history-entry file="UserSpecTest_shouldAddPunishmentId - 2018.09.28 at 19h 31m 04s.xml">
+      <configuration name="UserSpecTest.shouldAddPunishmentId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85605000" />
+    <option name="totallyTimeSpent" value="111411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3279" y="-164" width="1932" height="1045" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2809829" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32785088" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="CheckStyle" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32936078" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3261105" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32785088" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.34649122" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.20190778" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.20095949" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" side_tool="true" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="11" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19952305" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32734376" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34609374" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29921874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21303657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20095949" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" x="0" y="0" width="434" height="856" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,417 +926,459 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/InMemoryPunishmentRepository.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/InMemoryUserRepository.java</url>
+          <line>44</line>
+          <properties class="rentmovie.userservice.domain.InMemoryUserRepository" method="findById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java</url>
+          <line>25</line>
+          <properties class="rentmovie.punishmentservice.domain.Punishment" method="convertToDto">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+      <option name="time" value="40" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movie-service/src/test/java/rentmovie/movieservice/MovieServiceApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="136">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#302#303#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/InMemoryUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/AdjustPunishmentDto.java" />
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/Rent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentPunishmentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#230#231#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/domain/MovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="74" selection-start-line="74" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="102" column="20" lean-forward="true" selection-start-line="101" selection-start-column="21" selection-end-line="102" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="527">
+          <caret line="42" column="71" lean-forward="true" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/RentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-service/src/test/java/rentmovie/movieservice/MovieSpecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-end-line="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="898" selection-start-line="898" selection-end-line="898" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="930" selection-start-line="930" selection-end-line="930" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34-sources.jar!/org/apache/catalina/core/StandardWrapperValve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/proxy/RentProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PunishmentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/PunishmentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentCalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding>
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/exception/PunishmentNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/Rent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/PunishmentServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/ReturnRentDto.java">
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="74" lean-forward="false" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/InMemoryRentRepository.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/test/java/rentmovie/userservice/UserSpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-gateway/src/main/java/rentmovie/zuulgateway/ZuulGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/MovieProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/UserRentPunishmentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/exception/MovieNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-service/src/main/java/rentmovie/movieservice/exception/MovieExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/rent-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" selection-start-line="11" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="476">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="60" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/exception/RentExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/RentServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="67" column="62" lean-forward="true" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+        <state relative-caret-position="626">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/test/java/rentmovie/rentservice/RentSpecTest.java">
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="561">
+          <caret line="46" column="96" lean-forward="false" selection-start-line="46" selection-start-column="96" selection-end-line="46" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/proxy/UserProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/proxy/PunishmentProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/Punishment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="48" column="140" lean-forward="false" selection-start-line="48" selection-start-column="140" selection-end-line="48" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentSpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/InMemoryPunishmentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="false" />
+            <element signature="e#1287#1288#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java">
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/PunishmentServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/UserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/UserFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="48" column="61" lean-forward="false" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/domain/exception/UserExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/rentmovie/userservice/dto/PostUserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/ReturnRentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/RentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PunishmentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/dto/PostRentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/dto/PunishmentDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rent-service/src/main/java/rentmovie/rentservice/domain/RentFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/punishment-service/src/main/java/rentmovie/punishmentservice/domain/PunishmentFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/punishment-service/src/test/java/rentmovie/punishmentservice/PunishmentSpecTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="459">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,20 +1,18 @@
 package rentmovie.rentservice.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.experimental.Accessors;
 import rentmovie.rentservice.dto.PostRentDto;
 
 import rentmovie.rentservice.domain.Rent.RentPeriod;
 import rentmovie.rentservice.dto.PunishmentDto;
-import rentmovie.rentservice.exception.UserRentPunishmentException;
+import rentmovie.rentservice.exception.RentPunishmentException;
 import rentmovie.rentservice.proxy.MovieProxy;
 import rentmovie.rentservice.proxy.PunishmentProxy;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.time.Period;
 import java.time.temporal.ChronoUnit;
-import java.util.Optional;
+import java.util.List;
 
 @AllArgsConstructor
 public class RentManager {
@@ -24,12 +22,11 @@ public class RentManager {
 
     public Rent processRent(PostRentDto rentDto) {
 
-        Optional<PunishmentDto> punishment =
-                Optional.ofNullable(punishmentProxy.findAnyPunishment(rentDto.getUserId()));
+        List<PunishmentDto> punishments =
+                punishmentProxy.findAnyPunishment(rentDto.getUserId());
 
-        if (punishment.isPresent()) {
-            throw new UserRentPunishmentException("You can't rent a movie. " +
-                    "Please adjust your punishment: " + punishment.get().getPunishmentAmount());
+        if (!punishments.isEmpty()) {
+            throw new RentPunishmentException("You can't rent a movie. \nPlease adjust your punishments:\n");
         }
 
         BigDecimal moviePrice = movieProxy.retrieveMoviePrice(rentDto.getMovieId());
@@ -47,30 +44,32 @@ public class RentManager {
                 .build();
     }
 
-    public Rent processReturn(Rent rent) {
+    public Rent processReturn(Rent rent, LocalDate actualDate) {
 
         long numberOfExceededDays =
-                countIfPeriodDateExceeded(rent.getRentDate(), rent.getRentExpirationDate());
+                countIfPeriodDateExceeded(rent.getRentDate(), rent.getRentExpirationDate(), actualDate);
 
         if (numberOfExceededDays > 0){
-            punishmentProxy.addPunishment(numberOfExceededDays, rent.getUserId());
+
+            PunishmentDto punishmentDto = PunishmentDto.builder()
+                    .userId(rent.getUserId())
+                    .build();
+
+            punishmentProxy.addPunishmentExceededDays(numberOfExceededDays, punishmentDto);
         }
 
         return rent;
     }
 
-    public void actualizeStockNumber(String movieId, String subtract) {
-        movieProxy.actualizeStockNumber(movieId,subtract);
+    public void actualizeStockNumber(String movieId, String action) {
+        movieProxy.actualizeStockNumber(movieId, action);
     }
 
 
-    private long countIfPeriodDateExceeded(LocalDate rentDate, LocalDate expirationDate){
-//        LocalDate actualDate = LocalDate.now().plusDays(70);
-
-        LocalDate actualDate = LocalDate.now();
+    private long countIfPeriodDateExceeded(LocalDate rentDate, LocalDate expirationDate, LocalDate actualDate){
 
         Long rentPeriodDays = ChronoUnit.DAYS.between(rentDate, expirationDate);
-        Long exceedPeriodDays = ChronoUnit.DAYS.between(expirationDate, actualDate);
+        Long exceedPeriodDays = ChronoUnit.DAYS.between(rentDate, actualDate);
 
         return exceedPeriodDays - rentPeriodDays;
     }

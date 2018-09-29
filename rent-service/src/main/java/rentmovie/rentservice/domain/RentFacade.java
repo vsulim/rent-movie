@@ -5,15 +5,15 @@ import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.transaction.annotation.Transactional;
 import rentmovie.rentservice.dto.PostRentDto;
-import rentmovie.rentservice.dto.PunishmentDto;
 import rentmovie.rentservice.dto.RentDto;
-import rentmovie.rentservice.exception.UserRentPunishmentException;
+import rentmovie.rentservice.exception.RentNotFoundException;
+import rentmovie.rentservice.exception.RentPunishmentException;
 import rentmovie.rentservice.proxy.MovieProxy;
 import rentmovie.rentservice.proxy.PunishmentProxy;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -22,8 +22,8 @@ public class RentFacade {
 
     @Getter
     private RentManager rentManager;
-    private MovieProxy movieProxy;
     private RentRepository rentRepository;
+    private MovieProxy movieProxy;
     private PunishmentProxy punishmentProxy;
 
     public RentDto processRent(PostRentDto rentDto) {
@@ -41,7 +41,7 @@ public class RentFacade {
     public RentDto getRent(String id) {
         return rentRepository.findById(id)
                 .map(Rent::convertToDto)
-                .orElseThrow(() -> new NoSuchElementException());
+                .orElseThrow(() -> new RentNotFoundException("No rent with id " + id + " found."));
     }
 
     public List<String> findMovieIdsOfUser(String userId) {
@@ -55,10 +55,14 @@ public class RentFacade {
     public void processReturnRentedMovie(String rentId) {
 
         Rent rent = rentRepository.findById(rentId)
-                .orElseThrow(() -> new NoSuchElementException());
+                .orElseThrow(() -> new RentNotFoundException("Rent with id " + rentId + " not found."));
 
-        Rent processedRent = rentManager.processReturn(rent);
+        LocalDate actualDate = LocalDate.now();
+        Rent processedRent = rentManager.processReturn(rent, actualDate);
 
         rentRepository.delete(processedRent);
+        log.info("Deleted rent with id {} ", rent.getId());
+
+        rentManager.actualizeStockNumber(rent.getMovieId(), "Add");
     }
 }

@@ -7,11 +7,8 @@ import rentmovie.userservice.domain.security.UserSecurityService;
 @Configuration
 public class UserConfiguration {
 
-    public UserFacade accountCreator(){
-
-        UserRepository userRepository = new InMemoryUserRepository();
-
-        return userFacade(userRepository);
+    public UserFacade userFacade(){
+        return userFacade(new InMemoryUserRepository());
     }
 
     @Bean

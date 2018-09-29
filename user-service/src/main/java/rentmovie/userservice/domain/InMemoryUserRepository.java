@@ -10,8 +10,12 @@ public class InMemoryUserRepository implements UserRepository {
 
     private Map<String,User> users = new ConcurrentHashMap<>();
 
+    @Override
     public User save(User user) {
-        return users.put(user.getId(), user);
+
+        users.put(user.getId(), user);
+
+        return user;
     }
 
     @Override
@@ -23,7 +27,10 @@ public class InMemoryUserRepository implements UserRepository {
 
     @Override
     public User insert(User user) {
-        return users.put(user.getId(), user);
+
+        users.put(user.getId(), user);
+
+        return user;
     }
 
     @Override
@@ -32,5 +39,10 @@ public class InMemoryUserRepository implements UserRepository {
                 .stream()
                 .filter(user -> user.getUsername().equalsIgnoreCase(username))
                 .findAny();
+    }
+
+    @Override
+    public Optional<User> findById(String userId) {
+        return Optional.ofNullable(users.get(userId));
     }
 }

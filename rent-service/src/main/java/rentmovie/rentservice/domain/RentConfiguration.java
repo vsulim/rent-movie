@@ -17,7 +17,7 @@ public class RentConfiguration {
 
         RentManager rentManager = new RentManager(movieProxy, punishmentProxy);
 
-        return new RentFacade(rentManager, movieProxy, rentRepository, punishmentProxy);
+        return new RentFacade(rentManager, rentRepository, movieProxy, punishmentProxy);
     }
 
 //    @Bean

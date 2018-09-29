@@ -1,4 +1,4 @@
-package rentmovie.rentservice.exception;
+package rentmovie.userservice.domain.exception;
 
 import lombok.NoArgsConstructor;
 import org.springframework.core.Ordered;
@@ -11,15 +11,13 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 @NoArgsConstructor
 @Order(Ordered.HIGHEST_PRECEDENCE)
-public class RentExceptionHandler {
+public class UserExceptionHandler {
 
-    @ExceptionHandler(RentPunishmentException.class)
-    private ResponseEntity processOrderNotFoundException(RentPunishmentException ex) {
+    @ExceptionHandler(UserNotFoundException.class)
+    private ResponseEntity processOrderNotFoundException(UserNotFoundException ex) {
 
         String message = ex.getMessage();
 
-        return new ResponseEntity(message, HttpStatus.NOT_ACCEPTABLE);
+        return new ResponseEntity(message, HttpStatus.NOT_FOUND);
     }
 }
-
-

@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import rentmovie.punishmentservice.dto.PunishmentDto;
 
+import java.util.List;
+
 @RestController
 @AllArgsConstructor
 @RequestMapping("/punishments")
@@ -11,16 +13,18 @@ public class PunishmentController {
 
     private PunishmentFacade punishmentFacade;
 
-    @GetMapping("/of/{userId}")
-    public PunishmentDto getPunishmentsOfUser(@PathVariable String userId) {
-        return punishmentFacade.getPunishments(userId);
+    @GetMapping("/all/{userId}")
+    public List<PunishmentDto> getUserPunishments(@PathVariable String userId) {
+        return punishmentFacade.findAllUserPunishments(userId);
     }
 
-    @PostMapping("/{userId}")
-    public PunishmentDto addPunishment(@PathVariable String userId, @RequestParam("days") long exceededDays) {
-        return punishmentFacade.addPunishmentBasedOnExceededDays(userId, exceededDays);
+    @PostMapping("/days/")
+    public PunishmentDto addPunishmentExceededDays(@RequestParam("exceeded") long exceededDays, @RequestBody PunishmentDto punishmentDto) {
+        return punishmentFacade.addPunishmentBasedOnExceededDays(punishmentDto, exceededDays);
     }
 
-    @PutMapping("/adjust")
-
+    @DeleteMapping("/adjust")
+    public void payOffPunishment(@RequestParam("punishmentId") String punishmentId){
+        punishmentFacade.adjustPunishment(punishmentId);
+    }
 }

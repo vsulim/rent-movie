@@ -1,16 +1,13 @@
 package rentmovie.userservice.domain;
 
 import lombok.AllArgsConstructor;
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import rentmovie.userservice.dto.PostUserDto;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.security.Principal;
 import java.util.Collections;
 import java.util.Map;
 
@@ -19,17 +16,17 @@ import java.util.Map;
 @RequestMapping("/users")
 public class UserController {
 
-    private final UserFacade userService;
+    private final UserFacade userFacade;
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public void createAccount(@RequestBody PostUserDto postUserDto) {
-        userService.addUser(postUserDto);
+        userFacade.addUser(postUserDto);
     }
 
     @GetMapping(value="/token")
     @ResponseStatus(HttpStatus.OK)
-    public Map<String, String> token(HttpSession session, HttpServletRequest request) {
+    public Map<String, String> getToken(HttpSession session, HttpServletRequest request) {
         return Collections.singletonMap("token", session.getId());
     }
 
@@ -37,5 +34,17 @@ public class UserController {
     @ResponseStatus(HttpStatus.OK)
     public void logout() {
         SecurityContextHolder.clearContext();
+    }
+
+    @PutMapping("/of/{userId}/punishment/add")
+    @ResponseStatus(HttpStatus.OK)
+    public void processAddPunishment(@PathVariable String userId, @RequestParam("punishmentId") String punishmentId) {
+        userFacade.addUserPunishment(userId, punishmentId);
+    }
+
+    @PutMapping("/of/{userId}/punishment/remove")
+    @ResponseStatus(HttpStatus.OK)
+    public void processRemovePunishment(@PathVariable String userId, @RequestParam("punishmentId") String punishmentId) {
+        userFacade.removeUserPunishment(userId, punishmentId);
     }
 }

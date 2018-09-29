@@ -17,4 +17,5 @@ public class PunishmentDto implements Serializable {
     private String id;
     private String userId;
     private BigDecimal punishmentAmount;
+    private String punishmentReason;
 }
