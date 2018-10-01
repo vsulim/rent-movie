@@ -1,4 +1,4 @@
-# rent-movie-app
+# Rent-movie application
 Simple application using microservices architecture that allows renting movies.
 
 
