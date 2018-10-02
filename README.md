@@ -11,3 +11,5 @@ Simple application using microservices architecture that allows renting movies.
 - MongoDB
 
 - Microservices Architecture
+
+- Angular, Bootstrap, CSS
