@@ -6,6 +6,8 @@ Simple application using microservices architecture that allows renting movies.
 
 - Spring (Cloud, Boot2, MVC, Data, Security)
 
+- JUnit, Mockito
+
 - MongoDB
 
 - Microservices Architecture
