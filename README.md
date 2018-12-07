@@ -12,4 +12,4 @@ Simple application using microservices architecture that allows renting movies.
 
 - Microservices Architecture
 
-- Angular 5, Bootstrap, CSS
+- Angular xD5, Bootstrap, CSS
